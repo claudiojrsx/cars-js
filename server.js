@@ -1,6 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks');
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const server = express()
 const videos = require("./data")
