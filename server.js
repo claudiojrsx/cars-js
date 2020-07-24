@@ -1,5 +1,6 @@
 const express = require('express')
 const nunjucks = require('nunjucks');
+const PORT = 5000;
 
 const server = express()
 const videos = require("./data")
@@ -54,6 +55,6 @@ server.get("/video", function(req, res) {
     return res.render("video", { item: video })
 })
 
-server.listen(5000, function() {
+server.listen(PORT, function() {
     console.log("Server is running.")
 });
