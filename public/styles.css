@@ -242,3 +242,9 @@ iframe {
     top: 0;
     border-radius: 0;
 }
+
+.font-cars {
+    color: #fdb814;
+    font-family: 'Lemonada', cursive;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.200);
+}
